@@ -1,24 +1,6 @@
-[![Maintenance Status][maintenance-image]](#maintenance-status)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/237df7d0-d146-45d7-8032-ce08e4460642/deploy-status)](https://app.netlify.com/sites/faq-investimentos/deploys)
 
-# Spectacle Boilerplate
-
-## Contents
-
-- [Reference](#reference)
-- [Getting Started](#getting-started)
-- [Build & Deployment](#build-deployment)
-
-## Reference
-
-The Spectacle core API is available at [https://github.com/FormidableLabs/spectacle/blob/master/README.md](https://github.com/FormidableLabs/spectacle/blob/master/README.md).
-
-For more information about MDX syntax and how it all works, check out the [MDX documentation](https://mdxjs.com/).
-
-### Slides
-
-Slides are separated with `---`.
-
-To customize specific MDX functionality in Spectacle Boilerplate MDX, including what characters are used to demarcate slide breaks, refer to the `loader.js` file. We don't recommend altering this functionality unless necessary.
+# FAQ de Investimentos
 
 ## Getting Started
 
