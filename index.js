@@ -7,6 +7,7 @@ import { Deck } from 'spectacle'
 
 import slides, { transitions } from './presentation/index.mdx'
 import OneDarkTheme from './presentation/theme'
+import './presentation/index.css'
 
 require('normalize.css')
 
