@@ -41,36 +41,24 @@ const OneDarkTheme = createTheme(colors, fonts, {
       margin: '0 auto',
       textAlign: 'left'
     },
-    goToAction: {
-      borderRadius: '6px',
-      fontFamily: fonts.primary,
-      padding: '0.25em 1em',
-      border: 'none',
-      background: '#000',
-      color: '#fff',
-      '&:hover': {
-        background: colors.tertiary,
-        color: '#000'
-      }
-    },
     heading: {
       h1: {
         color: colors.primary,
-        // fontSize: '7.05rem',
-        fontSize: '52px',
+        fontSize: '2.2em',
         fontFamily: fonts.primary,
         lineHeight: 1,
-        fontWeight: '300',
+        fontWeight: '400',
         textAlign: 'center',
-        margin: 0,
+        marginBottom: 40,
         zoom: 1
       },
       h2: {
         color: colors.secondary,
-        fontSize: '5.88rem',
-        fontFamily: fonts.primary,
+        fontSize: '1em',
+        fontFamily: fonts.secondary,
         lineHeight: 1,
-        fontWeight: '300',
+        fontWeight: '100',
+        textAlign: 'center',
         margin: 0
       },
       h3: {
@@ -114,12 +102,16 @@ const OneDarkTheme = createTheme(colors, fonts, {
       textDecoration: 'none'
     },
     listItem: {
-      fontSize: '2.66rem'
+      color: colors.secondary,
+      fontSize: '3vmin',
+      fontFamily: fonts.secondary,
+      fontWeight: 300,
+      margin: '0.25rem auto'
     },
     list: {
       textAlign: 'left',
       listStylePosition: 'inside',
-      padding: 0
+      padding: 20
     },
     s: {
       strikethrough: {}
@@ -135,9 +127,10 @@ const OneDarkTheme = createTheme(colors, fonts, {
       width: '100%'
     },
     text: {
-      color: 'black',
-      fontSize: '2.66rem',
-      fontFamily: fonts.primary,
+      color: colors.secondary,
+      fontSize: '2vmin',
+      fontFamily: fonts.secondary,
+      fontWeight: 300,
       margin: '0.25rem auto'
     }
   }
